@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Mushtaq Ahamad | Software Engineer & Full Stack Developer</title>
+    <meta name="description" content="Portfolio of MD Mushtaq Ahamad, Software Developer and Full Stack Engineer with experience in production software, backend development, REST APIs, and modern web technologies.">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="MD Mushtaq Ahamad | Software Engineer & Full Stack Developer">
+    <meta property="og:description" content="Software Developer Intern at HTIC – IIT Madras. Building production software, backend systems, AI applications, and full-stack solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/Mushtaq1295">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='16 18 22 12 16 6'></polyline><polyline points='8 6 2 12 8 18'></polyline></svg>">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar-header" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo" aria-label="Home">
+                <span class="logo-bracket">&lt;</span>Mushtaq<span class="logo-dot">.</span>dev<span class="logo-bracket"> /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#learning" class="nav-link">Learning</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Let's Connect</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill reveal">
+                        <span class="status-dot-pulse"></span>
+                        <span class="status-text">Software Developer Intern @ HTIC – IIT Madras</span>
+                    </div>
+
+                    <h1 class="hero-title reveal">
+                        Building software that <br>
+                        <span class="gradient-text">solves real-world problems.</span>
+                    </h1>
+
+                    <p class="hero-subheading reveal">
+                        Software Developer <span class="text-separator">|</span> Full Stack Engineer <span class="text-separator">|</span> Problem Solver
+                    </p>
+
+                    <p class="hero-description reveal">
+                        Based in Vijayawada, India. Currently at <strong>HTIC – IIT Madras</strong>, building production-grade software and exploring full-stack engineering, backend systems, AI applications, and distributed software architecture.
+                    </p>
+
+                    <div class="hero-cta-group reveal">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials reveal">
+                        <a href="https://github.com/Mushtaq1295" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub Profile">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammad-mushtaq-ahamad-436305256/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn Profile">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span>LinkedIn</span>
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammadmushtaq1295@gmail.com" class="social-icon-link"
+                                aria-label="Send Email" target="_blank" rel="noopener noreferrer">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <span>Email</span>
+                            </a>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Window -->
+                <div class="hero-visual reveal">
+                    <div class="code-terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-close"></span>
+                                <span class="dot dot-minimize"></span>
+                                <span class="dot dot-maximize"></span>
+                            </div>
+                            <div class="terminal-tabs">
+                                <button class="term-tab active" data-tab="profile">developer.py</button>
+                                <button class="term-tab" data-tab="htic">production_sys.py</button>
+                                <button class="term-tab" data-tab="stack">stack.config</button>
+                            </div>
+                        </div>
+
+                        <div class="terminal-body">
+                            <!-- Tab Content 1: profile -->
+                            <div class="tab-pane active" id="tab-profile">
+                                <pre><code><span class="code-keyword">class</span> <span class="code-class">SoftwareEngineer</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+        <span class="code-param">self</span>.name = <span class="code-string">"MD Mushtaq Ahamad"</span>
+        <span class="code-param">self</span>.role = <span class="code-string">"Full Stack Engineer"</span>
+        <span class="code-param">self</span>.location = <span class="code-string">"Vijayawada, India"</span>
+        <span class="code-param">self</span>.current_role = <span class="code-string">"Software Developer Intern @ HTIC – IIT Madras"</span>
+
+    <span class="code-keyword">def</span> <span class="code-function">get_focus_areas</span>(<span class="code-param">self</span>):
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"Production Systems & Backend Engineering"</span>,
+            <span class="code-string">"REST API Design & Microservices"</span>,
+            <span class="code-string">"Full-Stack Web Development"</span>,
+            <span class="code-string">"AI-Powered Applications"</span>
+        ]
+
+<span class="code-comment"># Instantiating continuous learning pipeline</span>
+engineer = SoftwareEngineer()
+<span class="code-builtin">print</span>(f<span class="code-string">"Status: Ready to build high-impact solutions"</span>)</code></pre>
+                            </div>
+
+                            <!-- Tab Content 2: htic -->
+                            <div class="tab-pane" id="tab-htic">
+                                <pre><code><span class="code-comment"># Production Environment Setup @ HTIC – IIT Madras</span>
+<span class="code-keyword">from</span> dataclasses <span class="code-keyword">import</span> dataclass
+
+<span class="code-decorator">@dataclass</span>
+<span class="code-keyword">class</span> <span class="code-class">HealthcareProductionSystem</span>:
+    framework: <span class="code-builtin">str</span> = <span class="code-string">"Django REST Framework"</span>
+    database: <span class="code-builtin">str</span> = <span class="code-string">"PostgreSQL"</span>
+    containerization: <span class="code-builtin">str</span> = <span class="code-string">"Docker"</span>
+    async_queue: <span class="code-builtin">str</span> = <span class="code-string">"Celery Workers"</span>
+    environment: <span class="code-builtin">str</span> = <span class="code-string">"Dev / Testing / Production"</span>
+
+    <span class="code-keyword">def</span> <span class="code-function">deploy_workflow</span>(<span class="code-param">self</span>):
+        <span class="code-builtin">print</span>(<span class="code-string">"Running health checks & architectural verification..."</span>)
+        <span class="code-keyword">return</span> <span class="code-boolean">True</span></code></pre>
+                            </div>
+
+                            <!-- Tab Content 3: stack -->
+                            <div class="tab-pane" id="tab-stack">
+                                <pre><code>{
+  <span class="code-string">"languages"</span>: [<span class="code-string">"JavaScript"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"C"</span>],
+  <span class="code-string">"frontend"</span>: [<span class="code-string">"React.js"</span>, <span class="code-string">"HTML5"</span>, <span class="code-string">"CSS3"</span>, <span class="code-string">"Tailwind CSS"</span>],
+  <span class="code-string">"backend"</span>: [<span class="code-string">"Node.js"</span>, <span class="code-string">"Express.js"</span>, <span class="code-string">"Django"</span>, <span class="code-string">"REST APIs"</span>],
+  <span class="code-string">"databases"</span>: [<span class="code-string">"PostgreSQL"</span>, <span class="code-string">"MongoDB"</span>, <span class="code-string">"SQL"</span>, <span class="code-string">"Firebase"</span>],
+  <span class="code-string">"devops_tools"</span>: [<span class="code-string">"Docker"</span>, <span class="code-string">"Git"</span>, <span class="code-string">"Postman"</span>, <span class="code-string">"Vercel"</span>, <span class="code-string">"Render"</span>]
+}</code></pre>
+                            </div>
+                        </div>
+
+                        <div class="terminal-footer">
+                            <span class="term-status-indicator"></span>
+                            <span class="term-status-text">Terminal Active — Python 3.11 (Production Ready)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">OVERVIEW</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio-col reveal">
+                        <p class="about-lead">
+                            I am a Software Developer with hands-on experience building full-stack applications and working directly on production software systems.
+                        </p>
+                        <p class="about-text">
+                            I enjoy solving real-world problems, understanding how complex software systems operate under the hood, and transforming raw ideas into reliable, maintainable, and user-friendly products.
+                        </p>
+                        <p class="about-text">
+                            My primary technology stack centers around <strong>JavaScript, React.js, Node.js, Express.js, Python, Django, MongoDB, and PostgreSQL</strong>. I also regularly work with REST APIs, Docker containerization, Git version control, Postman, and Agile software engineering practices.
+                        </p>
+                        <p class="about-text">
+                            At <strong>HTIC – IIT Madras</strong>, I operate in a research-driven engineering environment. This experience has provided me with practical exposure to production software architecture, backend optimization, debugging complex flows, Docker environments, PostgreSQL databases, Django, and handling Celery background worker pipelines across development, testing, and production environments.
+                        </p>
+                    </div>
+
+                    <div class="about-cards-col reveal">
+                        <div class="info-card">
+                            <div class="info-card-label">CURRENT ROLE</div>
+                            <div class="info-card-value">Software Developer Intern</div>
+                            <div class="info-card-sub">Healthcare & Tech Research</div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-label">ORGANIZATION</div>
+                            <div class="info-card-value">HTIC – IIT Madras</div>
+                            <div class="info-card-sub">Research & Production Systems</div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-label">CORE FOCUS</div>
+                            <div class="info-card-value">Full Stack & Backend Systems</div>
+                            <div class="info-card-sub">REST APIs, Architecture & AI</div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-label">LOCATION</div>
+                            <div class="info-card-value">Vijayawada, India</div>
+                            <div class="info-card-sub">Open to Remote / Relocation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">CAREER ROADMAP</span>
+                    <h2 class="section-title">Work Experience</h2>
+                    <p class="section-description">Real production software experience & full-stack development</p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Experience 1: HTIC -->
+                    <div class="timeline-item timeline-featured reveal">
+                        <div class="timeline-marker">
+                            <div class="marker-dot pulse"></div>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <div class="company-badge-wrap">
+                                        <span class="company-name">HTIC – IIT Madras</span>
+                                        <span class="badge-current">CURRENT</span>
+                                    </div>
+                                    <h3 class="role-title">Software Developer Intern</h3>
+                                </div>
+                                <div class="experience-duration">Current Professional Experience</div>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">REST APIs</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Celery</span>
+                                <span class="tech-tag">Worker Processes</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Production Software</span>
+                            </div>
+
+                            <ul class="experience-bullets">
+                                <li>Building and maintaining backend functionality for production-grade healthcare software applications.</li>
+                                <li>Working with Django and PostgreSQL to design scalable database schemas and maintain robust API end-points.</li>
+                                <li>Utilizing Docker to manage containerized environments across development, testing, and production deployments.</li>
+                                <li>Gaining practical exposure to production debugging, troubleshooting system bottlenecks, and logging strategies.</li>
+                                <li>Working with Celery worker processes to execute asynchronous background tasks and scheduled routines.</li>
+                                <li>Participating in software architecture and system design discussions alongside senior engineers and research staff.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2: MEH Automotives -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="company-name">MEH Automotives</span>
+                                    <h3 class="role-title">Full Stack Developer</h3>
+                                </div>
+                                <div class="experience-duration">Full-Stack Application</div>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Cloudinary</span>
+                                <span class="tech-tag">Postman</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+
+                            <ul class="experience-bullets">
+                                <li>Engineered a full-stack inventory and customer transaction management system tailored for automotive business operations.</li>
+                                <li>Built modular RESTful APIs using Node.js and Express.js to handle inventory records, customer profiles, and transaction histories.</li>
+                                <li>Designed and structured MongoDB database schemas ensuring efficient data retrieval and relational data integrity.</li>
+                                <li>Implemented responsive React.js frontend interfaces with role-authenticated navigation and dynamic search capabilities.</li>
+                                <li>Integrated Cloudinary media services for automated document and asset storage within business workflows.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3: Bus Management System -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="company-name">College Management / Transport Operations</span>
+                                    <h3 class="role-title">Full Stack Developer — Bus Management System</h3>
+                                </div>
+                                <div class="experience-duration">Full-Stack System</div>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">JWT Auth</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+
+                            <ul class="experience-bullets">
+                                <li>Developed a centralized management system for organizing buses, student transit details, and transport operations.</li>
+                                <li>Implemented robust role-based access control (RBAC) supporting distinct access tiers for Admins and Transport Coordinators.</li>
+                                <li>Built administrative control dashboards for managing vehicle allocations, route tracking, and student assignments.</li>
+                                <li>Integrated secure JWT user authentication and automated session management for coordinator workflows.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">CAPABILITIES</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-description">Languages, frameworks, databases, tools & engineering principles</p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Group 1: Programming Languages -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                            </div>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>JavaScript</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Python</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>C</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Java Basics</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 2: Frontend -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                            </div>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>React.js</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>HTML5</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>CSS3</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Tailwind CSS</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Bootstrap</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Material UI</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 3: Backend -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                            </div>
+                            <h3>Backend & APIs</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>Node.js</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Express.js</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Django</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>REST APIs</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>JWT Auth</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 4: Databases -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M21 19c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                            </div>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>PostgreSQL</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>MongoDB</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>SQL</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Firebase</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 5: Tools & Deployment -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                            </div>
+                            <h3>Tools & Deployment</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>Docker</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Git & GitHub</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Postman</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Figma</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Vercel</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Render</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Railway</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 6: Concepts & Software Engineering -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            </div>
+                            <h3>Software Engineering Concepts</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><span class="pill-dot"></span>OOP</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Data Structures</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>SDLC & Agile</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Debugging</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Software Architecture</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>API Integration</span>
+                            <span class="skill-pill"><span class="pill-dot"></span>Auth & Authorization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">FEATURED PORTFOLIO</span>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-description">Practical applications built for real-world impact</p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-container">
+                    <!-- Featured Project 1: AI Resume Analyzer -->
+                    <article class="featured-project-card reveal">
+                        <div class="featured-header-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <span>FEATURED PROJECT</span>
+                        </div>
+
+                        <div class="featured-project-grid">
+                            <div class="featured-project-info">
+                                <h3 class="project-title">AI Resume Analyzer</h3>
+                                <p class="project-subtitle">AI-Powered Resume & ATS Compatibility Evaluator</p>
+
+                                <p class="project-description">
+                                    An intelligent full-stack application that analyzes uploaded candidate resumes against specific job descriptions to deliver structured ATS-compatibility scoring, missing keyword detection, and AI-powered optimization recommendations.
+                                </p>
+
+                                <div class="project-feature-list">
+                                    <div class="feature-item">
+                                        <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        <span>Resume & Job Description automated parsing</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        <span>ATS compatibility analysis & missing keyword alerts</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        <span>OpenAI API integration for resume improvement feedback</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        <span>JWT Authentication & RESTful endpoint architecture</span>
+                                    </div>
+                                </div>
+
+                                <div class="tech-tags">
+                                    <span class="tech-tag highlight">React.js</span>
+                                    <span class="tech-tag highlight">Node.js</span>
+                                    <span class="tech-tag highlight">Express.js</span>
+                                    <span class="tech-tag highlight">MongoDB</span>
+                                    <span class="tech-tag highlight">OpenAI API</span>
+                                    <span class="tech-tag highlight">JWT</span>
+                                    <span class="tech-tag highlight">Tailwind CSS</span>
+                                </div>
+
+                                <div class="project-actions">
+                                    <a href="https://github.com/Mushtaq1295/AI-Resume-Analyzer" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                        <span>GitHub Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Interactive Dashboard Mockup -->
+                            <div class="featured-project-preview">
+                                <div class="mock-dashboard-card">
+                                    <div class="mock-topbar">
+                                        <div class="mock-brand">
+                                            <span class="mock-icon">⚡</span>
+                                            <span>AI Resume Evaluator v1.2</span>
+                                        </div>
+                                        <div class="mock-badge-status">API Connected</div>
+                                    </div>
+
+                                    <!-- Interactive Tabs Inside Preview -->
+                                    <div class="mock-nav-tabs">
+                                        <button class="mock-tab active" data-preview-tab="score">ATS Overview</button>
+                                        <button class="mock-tab" data-preview-tab="keywords">Keyword Match</button>
+                                        <button class="mock-tab" data-preview-tab="ai">AI Recommendations</button>
+                                    </div>
+
+                                    <!-- Preview Tab 1: ATS Overview -->
+                                    <div class="mock-pane active" id="mock-pane-score">
+                                        <div class="score-card-row">
+                                            <div class="score-radial">
+                                                <div class="radial-ring">
+                                                    <span class="score-number">88<small>%</small></span>
+                                                </div>
+                                                <span class="score-label">ATS Compatibility</span>
+                                            </div>
+                                            <div class="score-stats-col">
+                                                <div class="stat-mini">
+                                                    <span class="stat-lbl">Role Match</span>
+                                                    <span class="stat-val text-success">High Fit</span>
+                                                </div>
+                                                <div class="stat-mini">
+                                                    <span class="stat-lbl">Readability</span>
+                                                    <span class="stat-val text-cyan">94 / 100</span>
+                                                </div>
+                                                <div class="stat-mini">
+                                                    <span class="stat-lbl">Missing Skills</span>
+                                                    <span class="stat-val text-warning">2 Key Terms</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress-block">
+                                            <div class="progress-meta">
+                                                <span>Technical Keyword Density</span>
+                                                <span>92%</span>
+                                            </div>
+                                            <div class="progress-track">
+                                                <div class="progress-bar" style="width: 92%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Preview Tab 2: Keywords -->
+                                    <div class="mock-pane" id="mock-pane-keywords">
+                                        <div class="keyword-pill-group">
+                                            <span class="kw-tag found">✓ React.js</span>
+                                            <span class="kw-tag found">✓ Node.js</span>
+                                            <span class="kw-tag found">✓ Express.js</span>
+                                            <span class="kw-tag found">✓ REST APIs</span>
+                                            <span class="kw-tag found">✓ PostgreSQL</span>
+                                            <span class="kw-tag found">✓ Docker</span>
+                                            <span class="kw-tag missing">⚠ System Architecture</span>
+                                            <span class="kw-tag missing">⚠ Kubernetes</span>
+                                        </div>
+                                        <p class="mock-note">2 missing key terms identified for Target Role: Senior Full Stack Engineer.</p>
+                                    </div>
+
+                                    <!-- Preview Tab 3: AI Suggestions -->
+                                    <div class="mock-pane" id="mock-pane-ai">
+                                        <div class="ai-suggestion-box">
+                                            <div class="ai-header">🤖 OpenAI Feedback:</div>
+                                            <ul class="ai-recs">
+                                                <li>Emphasize production engineering experience at HTIC - IIT Madras near the top summary.</li>
+                                                <li>Quantify database optimization techniques used with PostgreSQL & Django backend workflows.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="mock-footer-bar">
+                                        <span>Click tabs above to interact with live demo dashboard</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Other Projects Grid -->
+                    <div class="secondary-projects-grid">
+                        <!-- Project 2: MEH Automotives -->
+                        <article class="project-card reveal">
+                            <div class="project-card-inner">
+                                <div class="project-card-header">
+                                    <div class="project-type-badge">ENTERPRISE APP</div>
+                                </div>
+
+                                <h3 class="project-card-title">MEH Automotives</h3>
+                                <p class="project-card-subtitle">Full-Stack Inventory & Transaction System</p>
+                                <p class="project-card-desc">
+                                    A full-stack business application created for automobile business operations to streamline inventory tracking, customer orders, and transaction processing.
+                                </p>
+
+                                <ul class="project-bullet-list">
+                                    <li>Real-world business inventory workflows & stock management</li>
+                                    <li>Customer transaction records & invoice logging</li>
+                                    <li>RESTful API design with Express.js & MongoDB integration</li>
+                                    <li>Cloudinary media integration for automotive documentation</li>
+                                </ul>
+
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React.js</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Cloudinary</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 3: Bus Management System -->
+                        <article class="project-card reveal">
+                            <div class="project-card-inner">
+                                <div class="project-card-header">
+                                    <div class="project-type-badge">MANAGEMENT SYSTEM</div>
+                                </div>
+
+                                <h3 class="project-card-title">Bus Management System</h3>
+                                <p class="project-card-subtitle">Centralized Transport Operations Platform</p>
+                                <p class="project-card-desc">
+                                    A multi-tier platform built to manage campus transport infrastructure, fleet assignments, driver scheduling, and student transit allocations.
+                                </p>
+
+                                <ul class="project-bullet-list">
+                                    <li>Role-based access control (Admin & Coordinator tiers)</li>
+                                    <li>Centralized dashboards for vehicle and route logistics</li>
+                                    <li>REST API endpoints for real-time schedule updates</li>
+                                    <li>Automated JWT session authentication</li>
+                                </ul>
+
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React.js</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">JWT</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 4: Student Record Portal -->
+                        <article class="project-card reveal">
+                            <div class="project-card-inner">
+                                <div class="project-card-header">
+                                    <div class="project-type-badge">SECURE PORTAL</div>
+                                </div>
+
+                                <h3 class="project-card-title">Student Record Portal</h3>
+                                <p class="project-card-subtitle">Document Upload & Student Management System</p>
+                                <p class="project-card-desc">
+                                    A secure web portal designed for students to upload, organize, and maintain personal academic records, certificates, and administrative documentation.
+                                </p>
+
+                                <ul class="project-bullet-list">
+                                    <li>Secure document upload & structured retrieval system</li>
+                                    <li>User authentication and data privacy protection</li>
+                                    <li>Clean dashboard interface for document indexing</li>
+                                </ul>
+
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React.js</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+
+                                <div class="project-card-footer">
+                                    <a href="https://github.com/Mushtaq1295/cse-nriit" target="_blank" rel="noopener noreferrer" class="link-github-text">
+                                        <span>View on GitHub</span>
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">ACADEMICS</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="education-grid">
+                    <div class="edu-card reveal">
+                        <div class="edu-header">
+                            <div class="edu-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                            </div>
+                            <div class="edu-score-badge">CGPA: 8.88 / 10</div>
+                        </div>
+
+                        <h3 class="degree-title">B.Tech – Computer Science & Engineering</h3>
+                        <div class="institution-name">NRI Institute of Technology</div>
+                        <p class="edu-description">
+                            Strong academic foundation in Object-Oriented Programming, Data Structures & Algorithms, Software Engineering principles, Database Management Systems, and Computer Networks.
+                        </p>
+                    </div>
+
+                    <div class="edu-card reveal">
+                        <div class="edu-header">
+                            <div class="edu-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            </div>
+                            <div class="edu-score-badge">96.7%</div>
+                        </div>
+
+                        <h3 class="degree-title">MPC (Mathematics, Physics, Chemistry)</h3>
+                        <div class="institution-name">Narayana Junior College</div>
+                        <p class="edu-description">
+                            Higher secondary education specializing in advanced mathematics, analytical reasoning, and foundational scientific principles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">CREDENTIALS</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrapper">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-name">Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</h3>
+                            <span class="cert-issuer">Oracle Cloud Infrastructure</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrapper">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-name">NPTEL Cloud Computing</h3>
+                            <span class="cert-issuer">NPTEL / IIT</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrapper">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-name">IBM Prompt Engineering</h3>
+                            <span class="cert-issuer">IBM</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrapper">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-name">HackerRank Python</h3>
+                            <span class="cert-issuer">HackerRank</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Learning Section -->
+        <section id="learning" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">CONTINUOUS GROWTH</span>
+                    <h2 class="section-title">Currently Exploring</h2>
+                    <p class="section-description">Topics and engineering domains I am actively studying and implementing</p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="learning-grid">
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">🏗️</div>
+                        <h3>System Design</h3>
+                        <p>Scalable software architecture, trade-offs, load balancing, and high-availability design patterns.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">⚡</div>
+                        <h3>Backend Engineering</h3>
+                        <p>High-throughput API development, concurrency models, caching strategies, and database indexing.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">☁️</div>
+                        <h3>Cloud Computing</h3>
+                        <p>Cloud infrastructure orchestration, container deployments, microservices, and serverless architectures.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">🤖</div>
+                        <h3>AI Applications</h3>
+                        <p>Integrating LLMs into production workflows, intelligent retrieval systems, and prompt engineering.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">🌐</div>
+                        <h3>Distributed Systems</h3>
+                        <p>Message queues, consensus algorithms, asynchronous event streams, and fault-tolerant computing.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">🛠️</div>
+                        <h3>Production Software</h3>
+                        <p>CI/CD pipelines, automated testing, observability, health monitoring, and zero-downtime releases.</p>
+                    </div>
+
+                    <div class="learning-card reveal">
+                        <div class="learning-icon">📐</div>
+                        <h3>Software Architecture</h3>
+                        <p>Clean Architecture principles, domain-driven design (DDD), and modular software composition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <div class="contact-header">
+                        <span class="section-subtitle">GET IN TOUCH</span>
+                        <h2 class="contact-title">Have an idea or opportunity?</h2>
+                        <p class="contact-text">
+                            I'm always interested in building useful products, solving challenging engineering problems, and learning from great software development teams.
+                        </p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="mailto:mohammadmushtaq1295@gmail.com" class="btn btn-primary btn-large">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>Email Me</span>
+                        </a>
+
+                        <button id="copy-email-btn" class="btn btn-secondary btn-large" data-email="mohammadmushtaq1295@gmail.com">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            <span id="copy-btn-text">Copy Email Address</span>
+                        </button>
+                    </div>
+
+                    <div class="contact-links-row">
+                        <a href="https://www.linkedin.com/in/mohammad-mushtaq-ahamad-436305256/" target="_blank" rel="noopener noreferrer" class="contact-social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/Mushtaq1295" target="_blank" rel="noopener noreferrer" class="contact-social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-copy">
+                Designed & built by <strong>MD Mushtaq Ahamad</strong>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/Mushtaq1295" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="footer-divider">•</span>
+                <a href="https://www.linkedin.com/in/mohammad-mushtaq-ahamad-436305256/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="footer-divider">•</span>
+                <a href="mailto:mohammadmushtaq1295@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Notification Toast -->
+    <div id="toast-notification" class="toast-notification" aria-live="polite"></div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
